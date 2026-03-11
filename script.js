@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is my first project</h1>
-</body>
-</html>
-<!-- JAVASCRIPT -->
-<script>
 function toggleMenu(){
 document.getElementById('mobileMenu').classList.toggle('hidden')
 }
@@ -28,11 +15,8 @@ localStorage.setItem('theme','light')
 }
 }
 
+
 if(localStorage.getItem('theme')==='dark'){
 document.documentElement.classList.add('dark')
 document.getElementById('themeBtn').textContent="☀"
 }
-</script>
-
-</body>
-</html>
