@@ -15,6 +15,7 @@ localStorage.setItem('theme','light')
 }
 }
 
+
 if(localStorage.getItem('theme')==='dark'){
 document.documentElement.classList.add('dark')
 document.getElementById('themeBtn').textContent="☀"
